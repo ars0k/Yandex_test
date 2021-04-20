@@ -15,7 +15,7 @@ test_two = ['a', 'b', 'c', 'a', 'b', 'c', 'c', 'c']
 # считаем кол-во конфет каждого типа
 c = Counter(test_one)
 l = list(c.values())
-#вычисляем НОД (заменяется также math.gcd в Python 3.9 или numpy gcd.reduce)
+#вычисляем НОД (заменяется также на math.gcd в Python 3.9 или numpy gcd.reduce)
 print (l)
 a,b,c = l
 if (a>=b and a>=c):
